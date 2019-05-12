@@ -24,7 +24,7 @@ int main(){
     split(imageYcb, channels);
     
     //declare scale factor
-    float alpha = 0.5;
+    float alpha = 1.5;
 
     //scale the Y channe;
     channels[0] = channels[0] * alpha;

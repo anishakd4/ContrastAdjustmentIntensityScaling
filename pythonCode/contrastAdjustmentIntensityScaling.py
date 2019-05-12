@@ -14,10 +14,10 @@ imageYcb =  np.float32(imageYcb)
 Y, C, B = cv2.split(imageYcb)
 
 #define scale factor
-alpha = 0.5
+alpha = 1.5
 
 #scale the Y channel
-Y = Y * 0.5
+Y = Y * alpha
 
 #clip the values betweeen 0 and 255
 Y = np.clip(Y, 0, 255)
